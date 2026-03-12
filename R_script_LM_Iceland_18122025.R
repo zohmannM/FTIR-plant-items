@@ -7,14 +7,11 @@ library(lattice)
 library(ggplot2)
 library(gridExtra)
 library(tidyverse)
-library(doParallel)
 library(randomForest)
 library(caret)
 library(prospectr)
 library(vip)
 library(dplyr)
-library(e1071)
-library(mosaic)
 
 
 rm(list=ls())
@@ -901,6 +898,7 @@ ggsave(
   limitsize = TRUE,
   bg = NULL,
   create.dir = FALSE)
+
 
 
 
